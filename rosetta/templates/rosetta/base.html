@@ -4,9 +4,15 @@
     <title>{% block pagetitle %}Rosetta{% endblock %}</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-    <link rel="stylesheet" href="{% static "admin/css/base.css" %}" type="text/css"/>
-    <link rel="stylesheet" href="{% static "admin/css/forms.css" %}" type="text/css"/>
-    <link rel="stylesheet" href="{% static "admin/css/changelists.css" %}" type="text/css"/>
+    <style type="text/css" media="screen">
+        {% include 'rosetta/css/base-ro.css' %}
+    </style>
+    <style type="text/css" media="screen">
+        {% include 'rosetta/css/forms-ro.css' %}
+    </style>
+    <style type="text/css" media="screen">
+        {% include 'rosetta/css/changelists-ro.css' %}
+    </style>
     <style type="text/css" media="screen">
         {% include 'rosetta/css/rosetta.css' %}
     </style>
